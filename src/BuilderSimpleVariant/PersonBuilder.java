@@ -1,0 +1,9 @@
+package BuilderSimpleVariant;
+
+public interface PersonBuilder {
+    PersonBuilder setName(String name);
+    PersonBuilder setSurname(String surname);
+    PersonBuilder setAge(int age);
+    PersonBuilder setSalary(double salary);
+    Person build();
+}
